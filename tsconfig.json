@@ -1,0 +1,10 @@
+{
+  "compilerOptions": {
+    "jsx": "react",
+    "module": "es6",
+    "strict": true,
+    "target": "es6",
+    "allowSyntheticDefaultImports": true,
+    "experimentalDecorators": true
+  }
+}
