@@ -27,9 +27,7 @@ module.exports = (nextConfig = {}) => {
       })
 
       if (typeof nextConfig.webpack === 'function') {
-        return nextConfig.webpack(config, Object.assign({
-          useModules: true,
-        }, options))
+        return nextConfig.webpack(config, options)
       }
 
       return config
